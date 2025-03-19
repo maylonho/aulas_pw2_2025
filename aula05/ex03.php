@@ -1,0 +1,1 @@
+//Pesquisar mais algumas funcoes nativas do php

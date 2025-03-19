@@ -1,28 +1,20 @@
-<a href="ex01.php">Exercício 01</a>
-<a href="ex02.php">Exercício 02</a>
+<a href="ex01.php">Exercício 01</a><br/>
+<a href="ex02.php">Exercício 02</a><br/>
 
-<hr/>
+<h1>Aula 03 - Estrutura Condicional</h1>
 
 <?php
-$nome = "João da Silva";
+$nome = "André Silva";
 $idade = 18;
 
-// == - verifica a igualdade de dados
-// === - verifica igualdade exata
-// >=
-// <=
-// >
-// <
-// != - Diferente
-
 if ($idade < 16){
-    echo "Você ainda não pode votar";
+    echo $nome . " você ainda não pode votar";
 }
-elseif ($idade >= 16 && $idade < 18){
-    echo "Você não é obrigado, mas já pode votar";
+elseif ($idade >= 16 and $idade < 18){
+    echo $nome . " você pode votar, mas é opcional!";
 }
 else {
-    echo "Você já é obrigado a votar";
+    echo $nome . " você deve votar!";
 }
 
 ?>
