@@ -67,4 +67,9 @@ $dias = [
 echo "<br>";
 echo $dias["sab"];
 
+$produto1 = ["arroz", 32, 5];
+$produto2 = ["feijão", 8.50, 10];
+
+echo $produto1[1] * $produto1[2];
+
 ?>
