@@ -7,6 +7,21 @@
 $nome = "André Silva";
 $idade = 18;
 
+// if(expressao){
+//     o codigo que sera executado
+// }
+// else{
+// }
+// Se a expressao for verdadeira, é executado o código dentro das chaves, caso contrário, é executado o bloco else.
+
+
+// OPERADORES LÓGICOS
+// operador (E) -- && ou 'and'
+// Retorna verdadeiro se todas as proposições (expressões) forem verdadeiras
+
+// operador (OU) || ou 'or'
+// Retorna verdadeiro se apenas uma das proposições (expressões) forem verdadeiras
+
 if ($idade < 16){
     echo $nome . " você ainda não pode votar";
 }

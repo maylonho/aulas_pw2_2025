@@ -1,4 +1,18 @@
 <?php
+OPERADORES ARITMETICOS
+SOMA --> +
+SUBSTRACAO --> -
+MULTIPLICAÇÃO --> *
+DIVISÃO --> /
+RESTO DA DIVISÃO --> %
+
+OPERADORES DE ATRIBUICÃO
+ATRIBUIçÂO DIRETA --> =
+INCREMENTO --> +=
+DECREMENTO --> -+
+ATR MULT --> *=
+ATR DIV --> /=
+
 $n1 = 10;
 $n2 = 10;
 $n3 = 10;
