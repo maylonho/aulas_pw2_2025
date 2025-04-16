@@ -4,5 +4,5 @@
 echo "Nome: " . $_GET['nome'];
 echo "<br/>";
 echo "Idade: " . $_GET['idade'];
-
+ 
 ?>
