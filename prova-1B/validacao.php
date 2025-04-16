@@ -1,0 +1,1 @@
+<?php $numeros= 3; $resto= $numeros/2; if($resto == 0 ) { echo " numero: " . $numeros . " é par"; } else { echo "numero: " . $numeros . " é impar"; $numeros++; } ?>
