@@ -29,7 +29,7 @@ foreach($alunos as $chave => $valor){
 } 
 
 //mostrando os valores
-//foreach(vetor as lista)
+//foreach(vetor as apelido)
 //percorra(vetor as lista)
 foreach($alunos as $lista){
     echo $lista;

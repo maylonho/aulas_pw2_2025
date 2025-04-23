@@ -29,6 +29,6 @@ for ($contador=0; $contador < 10; $contador++) {
     
 //     Ele é usado quando sabemos quantas vezes queremos repetir um bloco de código.
     
-//     No exemplo, a variável $i começa em 0 e é incrementada até atingir 9, exibindo cada iteração.
+//     No exemplo, a variável $contador começa em 0 e é incrementada até atingir 9, exibindo cada iteração.
 
 ?>

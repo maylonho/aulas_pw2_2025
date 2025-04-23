@@ -7,9 +7,9 @@
 // RESTO DA DIVISÃO --> %
 
 // OPERADORES DE ATRIBUICÃO
-// ATRIBUIçÂO DIRETA --> =
+// ATRIBUIÇÃO DIRETA --> =
 // INCREMENTO --> +=
-// DECREMENTO --> -+
+// DECREMENTO --> -=
 // ATR MULT --> *=
 // ATR DIV --> /=
 
