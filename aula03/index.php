@@ -8,9 +8,10 @@ $nome = "André Silva";
 $idade = 18;
 
 // if(expressao){
-//     o codigo que sera executado
+//     o codigo que sera executado caso a expressão for verdadeira
 // }
 // else{
+// o codigo que sera executado caso a   expressão for falsa
 // }
 // Se a expressao for verdadeira, é executado o código dentro das chaves, caso contrário, é executado o bloco else.
 

@@ -1,1 +1,0 @@
-<?php function n(){ $n= 56; if ($n %2 == 0){ for($i=0; $i <= $n; $i++ ) echo $i . "</br> " ; } return $n; } echo n(); ?>
