@@ -11,8 +11,7 @@ if($nome == "" || $idade == "" || $turma == "" || $usuario == "" || $senha == ""
 }
 else{
     $_SESSION['cadastro_sucesso'] = '';
-}
-
+} 
 header('Location: situacao.php');
 
 ?>
