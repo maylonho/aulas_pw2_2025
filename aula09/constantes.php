@@ -4,6 +4,6 @@ define('NOME_ESCOLA', 'ETEC - Centro Paula Souza');
 
 //const NOME_CONSTANTE = 'valor da constante';
 const NOME = 'Maylon';
-const IDADE = 18;
+const IDADE = 15;
 
 ?>
