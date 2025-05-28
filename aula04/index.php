@@ -12,6 +12,7 @@ while($contador <= 10){
     $contador++;
 }
 
+<<<<<<< HEAD
 echo "Laço de repetição - FOR <br>";
 
 //for(estado inicial; estado final; incremento)
@@ -31,4 +32,6 @@ for ($contador=0; $contador < 10; $contador++) {
     
 //     No exemplo, a variável $contador começa em 0 e é incrementada até atingir 9, exibindo cada iteração.
 
+=======
+>>>>>>> 66807f7 (Primeiro comit)
 ?>
