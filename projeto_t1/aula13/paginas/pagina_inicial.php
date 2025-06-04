@@ -1,0 +1,28 @@
+<!-- Cabeçalho do Site -->
+<?php include '../componentes/header.php' ?>
+<!-- Final do Cabeçalho do Site -->
+
+<!-- Conteúdo do Site -->
+<div class="container">
+    <?php
+        if(isset($_SESSION['usuario'])){
+            echo "Usuário: ". $_SESSION['usuario'];
+        }
+        if(isset($_SESSION['usuario_logado'])){
+            echo "Está logado?: ". $_SESSION['usuario_logado'];
+        }
+
+        unset($_SESSION['usuario']);
+        unset($_SESSION['usuario_logado']);
+    ?>
+    <h1 class="mt-5 mb-5">Página Inicial</h1>
+    <h3>Seja bem vindo ao Portal Resenhando Com Você</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam, impedit inventore eaque aperiam deserunt dolorum blanditiis placeat similique corporis expedita accusantium dignissimos! Hic suscipit atque quaerat dicta, culpa dolor temporibus distinctio quos nesciunt! Sunt repellat quod facere labore voluptatibus beatae, delectus recusandae saepe totam ipsa! Nisi quisquam porro laudantium eaque provident! Culpa similique totam error sequi nisi doloremque commodi laborum consequatur nihil debitis molestiae unde voluptate a quam minus magnam animi, tempora dolorum alias. Quisquam beatae exercitationem veniam velit amet vel quae voluptatum dolorum temporibus assumenda. Est eveniet dolorem ab esse enim exercitationem maiores saepe, atque officia harum ducimus quibusdam quisquam. Ducimus voluptate doloribus vitae sed ex a officia recusandae corrupti laboriosam rerum voluptates mollitia, sequi odit vel soluta amet illum doloremque? A ut facere consectetur repellat voluptate repudiandae, voluptatem harum! Repellendus veritatis quos dolore? A eligendi velit recusandae natus repellat illo deleniti beatae nesciunt voluptatum itaque vitae fugit modi veritatis voluptate culpa minus, molestias ducimus non porro quae provident soluta illum magni minima. Dolorem cupiditate autem eius, modi quasi nulla eos quaerat dolore possimus rem, vitae exercitationem veritatis voluptas et vero quidem. Illum odio illo saepe, amet explicabo aut expedita totam voluptas, corrupti et ab molestiae tenetur quis dicta ut laboriosam vero nostrum consectetur porro minima tempora. Praesentium harum dignissimos, exercitationem quia natus suscipit facere quasi id minus ratione inventore sint ex nisi accusamus alias eaque commodi at. Libero repudiandae autem iusto sit saepe doloremque nihil ullam corrupti. Facere repudiandae cum cupiditate ut placeat suscipit exercitationem esse porro, itaque totam temporibus saepe cumque dolore earum, quidem maxime doloremque. Fugiat dolores inventore laboriosam ut eveniet reprehenderit modi quis at, culpa ab exercitationem quae ducimus explicabo, maiores autem nesciunt facere. Velit reprehenderit perspiciatis, harum, id nisi dolorum praesentium obcaecati quibusdam earum, eligendi expedita. Atque non eligendi quos nam ipsum, vero labore libero quam, iusto laboriosam in similique optio eum eius nobis facere dolor ullam illo saepe natus et debitis, animi esse eos! Ea, accusamus! Aliquam placeat eaque amet, ipsum voluptate dicta itaque, optio, libero dolor impedit illum numquam praesentium minima modi quae! Optio harum dignissimos quibusdam perferendis, enim commodi, quod atque non veniam culpa neque? Dicta quos numquam, temporibus fugiat modi pariatur quisquam quae animi reiciendis doloribus culpa maxime vitae amet ipsa distinctio architecto vero deserunt dolor iure libero minus vel rerum? Quas facilis autem tempore atque dolore repellendus velit, maiores nostrum. Quas accusantium veniam perferendis commodi eos. Itaque laborum numquam rerum? Molestiae officia eum saepe provident itaque animi nostrum commodi facilis aliquid, culpa dolorem quis iure labore sunt nemo, quod soluta necessitatibus corporis fugit? Autem architecto error, sint nobis amet cumque nisi illo officia eum veniam ut quidem aut eius quas possimus, dicta soluta nihil, ipsam porro beatae placeat necessitatibus ad! Illum reprehenderit alias distinctio repellat tempora quia incidunt sint odio beatae recusandae! Fugiat illum pariatur architecto modi natus consectetur nisi, dolorum odio recusandae tempora adipisci ea placeat fuga in repellat doloremque maxime sed est maiores minima voluptas amet dolor provident esse. Nulla eius ullam fuga expedita distinctio ducimus.
+    </p>
+</div>
+<!-- Fim do Conteúdo do Site -->
+
+<!-- Rodapé do Site -->
+<?php include '../componentes/footer.php' ?>
+<!-- Final do Rodapé do Site -->
